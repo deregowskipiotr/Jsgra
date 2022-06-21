@@ -8,16 +8,12 @@
 </head>
 <body>
 	<div class="container">
-		<div id="buttons"></div>
-		<div id="messages">var computerMove, randomNumber;
-            randomNumber = Math.floor(Math.random() * 3 + 1);
-            console.log('wylosowana liczba to: ' + randomNumber);
-            if (randomNumber == '1') {
-              computerMove = 'kamień';
-            } else {
-              computerMove = 'nieznany ruch';
-            }
-            printMessage('Mój ruch: ' + computerMove);</div>
+		<div id="buttons">
+            <button id="button-rock">Kamień</button>
+            <button id="button-paper">Papier</button>
+            <button id="button-scissors">Nożyce</button>
+        </div>
+		<div id="messages"></div>
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
