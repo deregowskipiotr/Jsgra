@@ -122,6 +122,7 @@ function getMoveName(argMoveId) {
 /**
  * Describe this function...
  */
+/*
  var buttonRock, buttonPapper, buttonScissors;
  buttonRock = document.getElementById('button-rock');
  buttonPapper = document.getElementById('button-paper');
@@ -153,6 +154,7 @@ function getMoveName(argMoveId) {
   /**
  * Describe this function...
  */
+/*
 function getMoveName(argMoveId) {
     console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
     if (argMoveId == 1) {
@@ -175,6 +177,7 @@ function getMoveName(argMoveId) {
   /**
    * Describe this function...
    */
+  /*
    function displayResult(argPlayerMove, argComputerMove) {
       console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
       if (argPlayerMove == 'papier' && argComputerMove == 'kamień') {
@@ -207,3 +210,7 @@ function getMoveName(argMoveId) {
     console.log('ruch komputera to: ' + computerMove);
     displayResult(playerMove, computerMove);
   console.log(argButtonName + ' został kliknięty');
+  
+  */
+
+
