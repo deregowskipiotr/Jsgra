@@ -9,31 +9,39 @@
 </head>
 <body>
     <header class="header">
-        <h1>Rock Paper Scissor</h1>
+        <h1>Rock Paper Scissors</h1>
     </header>
 	<div class="container">
         <h2 class="game-title">Casino House</h2>
-        <div class="row">
-        <div class="players">
-            
-            <div class="player">
-                <h3>Player</h3>
-                <span id="scoreUser">0</span>
+        
+            <div class="players">
+                <div class="player">
+                    <h3>Player</h3>
+                    <span id="scoreUser">0</span>
+                </div>
+                <div class="player">
+                    <h3>Computer</h3>
+                    <span id="scoreComputer">0</span>
+                </div>
             </div>
+          
+	    <div id="buttons">
+            <button id="rock" class="btn btn-player">KAMIEŃ</button>
+            <button id="paper" class="btn btn-player">PAPIER</button>
+            <button id="scissors" class="btn btn-player">NOŻYCE</button>
         </div>
-        <div class="player">
-            <h3>Computer</h3>
-            <span id="scoreComputer">0</span>
-        </div>
+	    <div id="game">
+            <span id="winner"></span>
+            <div id="result" class="display-no">
+                <button class="btn-player" id="result-user"></button>
+                <span>VS</span>
+                 <button class="btn-player" id="result-computer"></button>
+            </div>
+        </div>    
     </div>
-		<div id="buttons">
-            <button id="button-rock" class="btn-player">Kamień</button>
-            <button id="button-paper" class="btn-player">Papier</button>
-            <button id="button-scissors" class="btn-player">Nożyce</button>
-        </div>
-		<div id="messages"></div>
 
-	</div>
+
+    
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
 </body>
