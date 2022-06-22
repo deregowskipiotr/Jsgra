@@ -99,5 +99,5 @@ const game = ( ) => {
       
     }
     startGame()
-    }
-    game()  
+}
+game()  
