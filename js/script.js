@@ -34,10 +34,10 @@ const game = ( ) => {
     }
 
     displayUserAndComputer = (user, computer) => {
-        resultUser.classList.remove("btn-player" + userChoosed);
-        resultComputer.classList.remove("btn-player" + computerChoosed);
-        resultUser.classList.add("btn-player" + user);
-        resultComputer.classList.add("btn-player" + computer);
+        resultUser.classList.remove("btn-user" + userChoosed);
+        resultComputer.classList.remove("btn-user" + computerChoosed);
+        resultUser.classList.add("btn-user" + user);
+        resultComputer.classList.add("btn-user" + computer);
         userChoosed = user;
         computerChoosed = computer;
     }
