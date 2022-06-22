@@ -214,3 +214,13 @@ function getMoveName(argMoveId) {
   */
 
 
+const game = ( ) {
+    let buttons = document.querySelectorAll('btn');
+
+
+    const startGame = () => {
+
+
+}
+
+}

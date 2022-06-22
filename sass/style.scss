@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: silver;
+    background-color: rgb(145, 135, 135);
     margin: 10px 30px;
     padding: 0 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -23,6 +23,7 @@ h2 {
     font-size: 120px;
     color:aqua;
     opacity: 0.5;
+    text-shadow: 10px 5px 5px black;
    
 }
 
@@ -61,6 +62,7 @@ align-items: center;
     cursor: pointer;
     color:black;
     font-weight: bold;
-    
+    border: none;
+    box-shadow: 10px 5px 5px black;
 }
 
