@@ -10,12 +10,14 @@ body {
     font-style: italic;
     text-align: center;
     
+    
 }
 
 .container {
     display: grid;
     grid-template-columns: auto;
     width: 980px;
+    height: 100%;
     margin: auto;
     padding: 0 20px;
   
@@ -32,10 +34,11 @@ h2 {
     color:aqua;
     opacity: 0.5;
     text-shadow: 10px 5px 5px black;
-    margin: 20px 0;
+    margin: 36px 0;
     
    
 }
+
 
 h3 {
     font-size: 48px;
@@ -62,7 +65,7 @@ h3 {
     border-radius: 30%;
     background-color: aqua;
     color: white;
-    margin: 36px 20px;
+    margin: 48px 20px;
     opacity: 0.5;
     cursor: pointer;
     color:black;
