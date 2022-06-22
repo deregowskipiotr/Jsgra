@@ -5,8 +5,7 @@
 
 body {
     background-color: rgb(145, 135, 135);
-    margin: 10px 30px;
-    padding: 0 30px;
+    margin: 90px 90px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     text-align: center;
@@ -16,7 +15,9 @@ body {
 .container {
     display: grid;
     grid-template-columns: auto;
-    min-width: 600px;
+    width: 980px;
+    margin: auto;
+    padding: 0 20px;
   
   }
 
@@ -31,6 +32,8 @@ h2 {
     color:aqua;
     opacity: 0.5;
     text-shadow: 10px 5px 5px black;
+    margin: 20px 0;
+    
    
 }
 
@@ -59,7 +62,7 @@ h3 {
     border-radius: 30%;
     background-color: aqua;
     color: white;
-    margin: 200px 20px;
+    margin: 36px 20px;
     opacity: 0.5;
     cursor: pointer;
     color:black;
@@ -68,16 +71,25 @@ h3 {
     box-shadow: 10px 5px 5px black;
 }
 
-.display-no {
-    display: none;
+.green {
+    color: green;
 }
 
-.green {
-    color: red;
-}
 .result {
     display: flex;
     flex-direction: row;
     padding: 30px;
     align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.game {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display-no {
+    display: none;
 }
